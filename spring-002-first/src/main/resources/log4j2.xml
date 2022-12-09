@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<configuration>
+    <loggers>
+        <root level="DEBUG">
+            <appear-ref ref="springlog"/>
+        </root>
+    </loggers>
+
+    <appear>
+        <console name="springlog" target="SYSTEM_">
+
+        </console>
+    </appear>
+</configuration>
